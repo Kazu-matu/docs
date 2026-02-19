@@ -1,0 +1,6 @@
+title: ドキュメントサイト
+description: 私のドキュメント
+theme: jekyll-theme-cayman
+markdown: kramdown
+baseurl: "/docs"
+url: "https://kazu-matu.github.io"
