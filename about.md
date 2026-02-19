@@ -7,47 +7,88 @@ title: About
 
 このサイトは **GitHub Pages** と **Jekyll** を使用して構築されています。
 
-## 技術スタック
+## Jekyll とは？
 
-- **GitHub Pages** - 静的サイトホスティング
-- **Jekyll** - 静的サイトジェネレーター
-- **Markdown** - コンテンツ記述
-- **Cayman Theme** - デザインテーマ
+Jekyllは静的サイトジェネレーターで、Markdownファイルを自動的にHTMLに変換してくれます。
 
-## Jekyllの利点
+### 主な特徴
 
-### 1. シンプル
-Markdownファイルを書くだけで、HTMLサイトが生成されます。
+- 📝 Markdownで簡単に記述
+- 🎨 テーマのカスタマイズが可能
+- 🔄 自動ビルド＆デプロイ
+- 💰 完全無料
 
-### 2. 柔軟性
-テーマのカスタマイズやプラグインの追加が可能です。
+## 使い方
 
-### 3. 無料
-GitHub Pagesで無料でホスティングできます。
+### 1. Markdownファイルを作成
 
-## ページの追加方法
+ファイルの先頭に以下を追加：
 
-新しいページを追加するには：
-
-1. `.md` ファイルを作成
-2. Front Matterを追加：
-```yaml
+```markdown
 ---
 layout: default
 title: ページタイトル
 ---
+
+# ここから本文
 ```
-3. Markdownで内容を記述
-4. コミットしてプッシュ
 
-自動的にHTMLに変換されて公開されます！
+### 2. コミット
 
-## リンク
+ファイルをリポジトリにコミットします。
 
-- [GitHub Pages ドキュメント](https://docs.github.com/ja/pages)
-- [Jekyll ドキュメント](https://jekyllrb.com/docs/)
-- [Markdown ガイド](https://www.markdownguide.org/)
+### 3. 自動公開
+
+数分待つと、自動的にHTMLに変換されて公開されます！
+
+## Markdownの書き方
+
+### 見出し
+
+```markdown
+# H1 見出し
+## H2 見出し
+### H3 見出し
+```
+
+### リスト
+
+```markdown
+- 項目1
+- 項目2
+  - サブ項目
+```
+
+### リンク
+
+```markdown
+[リンクテキスト](https://example.com)
+```
+
+### 画像
+
+```markdown
+![代替テキスト](画像のURL)
+```
+
+### コードブロック
+
+````markdown
+```python
+
+def hello():
+    print("Hello!")
+```
+````
+
+### 強調
+
+```markdown
+**太字**
+*イタリック*
+~~取り消し線~~
+```
 
 ---
 
-[ホームに戻る](/docs/)
+[ホームに戻る](.)
